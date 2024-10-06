@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="APK Automation Suite">
+
+    <!-- Test 1 - APK 1 -->
+    <test name="APK 1">
+        <parameter name="apkPath" value="C:\Users\Testriq\eclipse-workspace\MyProject\src\main\java\luxe\lab\resources\app-one-ci-release.apk"/>
+        <classes>
+           <class name="testCases.About_Us"/>
+        </classes>
+    </test>
+
+    <!-- Test 2 - APK 2 -->
+    <test name="APK 2">
+        <parameter name="apkPath" value="C:\Users\Testriq\eclipse-workspace\MyProject\src\main\java\luxe\lab\resources\app-two-ci-release.apk"/>
+        <classes>
+           <class name="testCases.About_Us"/>
+        </classes>
+    </test>
+
+    <!-- Repeat similar structure for APK 3, 4, and 5 -->
+    <test name="APK 3">
+        <parameter name="apkPath" value="D:\Prathamesh_Personal\Automation\luxe.lab\src\main\java\luxe\lab\resources\app-three-ci-release.apk"/>
+        <classes>
+          <class name="testCases.About_Us"/>
+        </classes>
+    </test>
+
+    <test name="APK 4">
+        <parameter name="apkPath" value="C:\Users\Testriq\eclipse-workspace\MyProject\src\main\java\luxe\lab\resources\app-four-ci-release.apk"/>
+        <classes>
+           <class name="testCases.About_Us"/>
+        </classes>
+    </test>
+
+    <test name="APK 5">
+        <parameter name="apkPath" value="C:\Users\Testriq\eclipse-workspace\MyProject\src\main\java\luxe\lab\resources\app-five-ci-release.apk"/>
+        <classes>
+            <class name="testCases.About_Us"/>
+        </classes>
+    </test>
+
+</suite>

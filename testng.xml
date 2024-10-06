@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 	<listeners>
+		<listener class-name="AndroidUtils.Listeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.Main_Menu_Travel_Bag"/>
+      <class name="testCases.Designers_Tab"/>
+      <class name="testCases.Main_Menu_Trendy"/>
+      <class name="testCases.Privacy_Policy"/>
+      <class name="testCases.FooterMenuNavigation"/>
+      <class name="testCases.Main_Menu_For_Baggy"/>
+      <class name="testCases.Checkout_page_Test"/>
+      <class name="testCases.About_Us"/>
+      <class name="testCases.Search_result_page_Test"/>
+      <class name="testCases.Influencer_Registration"/>
+      <class name="testCases.My_wishlist_page_Test"/>
+      <class name="testCases.Create_Ticket"/>
+      <class name="testCases.Contact_Us"/>
+      <class name="testCases.Affiliate_Program_Test"/>
+      <class name="testCases.Categories_page_Test"/>
+      <class name="testCases.Filter_and_Sorting"/>
+      <class name="testCases.Address_book_page_Test"/>
+      <class name="testCases.TrackOrderTest"/>
+      <class name="testCases.Product_details_page_Test"/>
+      <class name="testCases.Main_Menu_For_Kids"/>
+      <class name="testCases.Refer_A_Friend_And_Earn_Discount"/>
+      <class name="testCases.Main_Menu_For_Woman"/>
+      <class name="testCases.Forgot_Password_Test"/>
+      <class name="testCases.SignUpTest"/>
+      <class name="testCases.My_tickets_page_Test"/>
+      <class name="testCases.Terms_and_Conditions"/>
+      <class name="testCases.LoginTest"/>
+      <class name="testCases.Main_Menu_For_Men"/>
+      <class name="testCases.Main_Menu_Funcky"/>
+      <class name="testCases.Add_to_cart_page_Test_Logged_In_User"/>
+      <class name="testCases.My_orders_page_Test"/>
+      <class name="testCases.Main_Menu_HipHop"/>
+      <class name="testCases.Account_information_page_Test"/>
+      <class name="testCases.Main_Menu_Accessories"/>
+      <class name="testCases.Shipping"/>
+      <class name="testCases.Secure_Shopping"/>
+      <class name="testCases.Home_Screen"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
